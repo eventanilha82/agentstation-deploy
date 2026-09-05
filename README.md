@@ -4,16 +4,13 @@ Implante uma Station privada de agentes na sua própria tenancy Oracle Cloud
 Infrastructure (OCI). Este repositório contém somente a documentação de
 implantação e os assets imutáveis consumidos pelo OCI Resource Manager.
 
-> O botão **Implantar no Oracle Cloud** será ativado quando o pacote público
-> imutável da release `v0.1.0` for publicado e verificado. O repositório não
-> oferece um link de implantação ativo antes dessa publicação.
+[![Implantar no Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/eventanilha82/agentstation-deploy/releases/download/v0.1.0/agent-station-oci-stack.zip)
 
 ## O que será criado
 
-Quando ativado, o botão abrirá o OCI Resource Manager com o pacote `v0.1.0` já
-selecionado. A pessoa que implanta escolhe o compartment e a região, revisa o
-plano e confirma o apply. Nenhum recurso será criado pelo simples clique no
-botão.
+O botão abre o OCI Resource Manager com o pacote `v0.1.0` já selecionado. A
+pessoa que implanta escolhe o compartment e a região, revisa o plano e confirma
+o apply. Nenhum recurso é criado pelo simples clique no botão.
 
 O pacote instala uma Station com:
 
@@ -38,7 +35,7 @@ internas na VM; elas não entram no estado Terraform nem neste repositório.
 
 ## Assets verificáveis
 
-A release pública disponibilizará exatamente dois arquivos:
+Esta release disponibiliza exatamente dois arquivos:
 
 | Asset | Uso |
 | --- | --- |
